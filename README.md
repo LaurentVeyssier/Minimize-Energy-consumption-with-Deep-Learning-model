@@ -1,7 +1,7 @@
 # Minimize-Energy-consumption-with-Deep-Learning-model
 Use Deep Q-Learning model to optimize energy consumption of a data center
 
-This project leverages an AI deep learning model to optimize and reduce by up to 70% the energy consumption of a data center.
+This project leverages an AI deep learning model to optimize and reduce the energy consumption of a data center by up to 70%.
 The AI model uses Q-Learning algorithm to determine the best action at every time step.
 Q-Learning is based on Bellman equations which are at the root of Reinforcement Learning.
 
