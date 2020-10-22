@@ -21,6 +21,12 @@ The reward is defined as the absolute difference between the energy required by 
 
 # Deep Learning model
 
+The project uses a simple neural network made of 3 fully connected layers.
+The network takes as input a normalized vector representing the state. In this problem, the state is represented by the server temperature, the number of users and the data transmission rate. The 2 hidden layers have 64 and 32 nodes respectively. The output layer predicts the Q-values amongst 5 potential actions. A softmax activation function generates a probability distribution which allows to identify the action with the highest Q-value.
+The learning phase uses "Experience Replay" technique to train. 
+
 ![](Brain_Slide.png)
 
 # Results
+
+![](savings.png)
