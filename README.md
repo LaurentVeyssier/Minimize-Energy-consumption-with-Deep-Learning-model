@@ -3,7 +3,7 @@ Use Deep Q-Learning model to optimize energy consumption of a data center
 
 This project leverages an AI deep learning model to optimize and reduce by up to 70% the energy consumption of a data center.
 The AI model uses Q-Learning algorithm to determine the best action at every time step.
-Q-Learning is based on Bellman equation.
+Q-Learning is based on Bellman equations which are at the root of Reinforcement Learning.
 
 # Description
 The project aims to reduce energy consumption of an industrial installation. A deep learning optimization model is used and compared with the traditional integrated cooling system. The approach is inspired by the 40% reduction achieved at Google's data centers using DeepMind AI model.
