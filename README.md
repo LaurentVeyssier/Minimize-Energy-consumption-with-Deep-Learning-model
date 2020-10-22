@@ -34,4 +34,6 @@ The learning phase uses "Experience Replay" technique to train.
 
 # Results
 
+The percentage of energy saved varies depending on the experiments. The percentage is determined simulating one full year cycle. The sample below achieved 69% energy consumption thanks to AI compared to the usual integrated cooling system. Both models aim to maintain the server within an optimum temperature range beetween 18° to 24°C. The simulation is performed over time step of one minute for a full year.
+
 ![](savings.png)
