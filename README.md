@@ -6,7 +6,7 @@ The AI model uses Q-Learning algorithm to determine the best action at every tim
 Q-Learning is based on Bellman equations which are at the root of Reinforcement Learning.
 
 # Description
-The project aims to reduce energy consumption of an industrial installation. A deep learning optimization model is used and compared with the traditional integrated cooling system. The approach is inspired by the 40% reduction achieved at Google's data centers using DeepMind AI model.
+The project aims to reduce energy consumption of an industrial installation. A deep learning optimization model is used and compared with the traditional integrated cooling system. The approach is inspired by the 40% reduction achieved at Google's data centers using DeepMind AI model. The project is part of Udemy' s Artificial Intelligence for Business module.
 
 In this scenario, there are two key assumptions:
 - The intrinsic temperature of a server is a function of the atmospheric temperature, the number of users on the server and the data transmission rate. The relationship is approximated by a linear combination of those 3 variables. Coefficients are estimated using regression analysis.
