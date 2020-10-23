@@ -17,7 +17,9 @@ Q-Learning is a reinforcement learning algorithm to learn quality of actions tel
 
 Reminder (wikipedia): Reinforcement learning involves an agent, a set of states S, and a set A of actions per state. By performing an action a in A, the agent transitions from state to state. Executing an action in a specific state provides the agent with a reward (a numerical score). The goal of the agent is to maximize its total reward. It does this by adding the maximum reward attainable from future states to the reward for achieving its current state, effectively influencing the current action by the potential future reward. This potential reward is a weighted sum of the expected values of the rewards of all future steps starting from the current state.
 
-The reward is defined as the absolute difference between the energy required by the cooling system vs the energy required by the AI model. This is the energy saved by AI.
+So, the Bellman equation decomposes the value into two parts, the immediate reward plus the discounted future values. The Bellman equation shows up everywhere in the Reinforcement Learning literature, being one of the central elements of many Reinforcement Learning algorithms.
+
+In this project, the reward is defined as the absolute difference between the energy required by the cooling system vs the energy required by the AI model. This is the energy saved by AI.
 
 # Deep Learning model
 
